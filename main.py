@@ -90,7 +90,7 @@ mlb = joblib.load('mlb.jl')
 model = joblib.load('tfidf.jl')
 
 # #############################################################################
-# 3. Index route, opens automatically on http://127.0.0.1:8000
+# 3. Index route
 # #############################################################################
 @app.get('/')
 def index():

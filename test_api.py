@@ -12,7 +12,7 @@ import json
 url = 'https://ancient-tor-34149.herokuapp.com/predict'
 
 question = json.dumps({
-    'text': 'strange c error code min max call strange error c min max call visual c compiler'
+    'text': 'How di I merge 2 different columns of a dataframe using pandas in python?'
     })
 
 headers = {
